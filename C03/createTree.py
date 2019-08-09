@@ -116,7 +116,6 @@ def create_tree(dataset, feature_Names):
 
     tree = {best_feature_name:{}}
 
-    ## 此处有疑问？
     sub_feature_Names = feature_Names[:]
     del(sub_feature_Names[best_feature_idx])  # 消耗特征
     # del(feature_Names[best_feature_idx])  # 这个操作不可以！！！
