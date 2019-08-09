@@ -1,4 +1,4 @@
-createTree.py用于创建树结构
+createTree.py用于创建树结构——机器学习
 classifyTree.py构建分类器
 plotTree.py用于绘制树结构图
 storageTree.py用于存储以及加载树结构
