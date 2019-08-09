@@ -1,4 +1,7 @@
-data文件夹包含实例一（约会网站）以及实例二（手写数字识别）的数据
-classify.py是KNN分类器
-data_process.py对数据进行格式化、归一化、可视化等处理
-dating_test.py以及number_test.py分别是两个实例的测试代码
+(1) 收集数据:提供文本文件。data／文件夹包含实例一（约会网站）以及实例二（手写数字识别）的数据
+(2) 准备数据:使用Python解析文本文件,将文本或者像格式转换为分类器使用的list格式。
+　　　　　　　data_process.py对数据进行格式化、归一化、可视化等处理
+(3) 分析数据:使用Matplotlib画二维扩散图、在Python命令提示符中检查数据,确保它符合要求
+(4) 训练算法:此步骤不适用于k-近邻算法。
+(5) 测试算法:classify.py是KNN分类器
+(6) 使用算法:dating_test.py以及number_test.py分别是两个实例的测试代码
