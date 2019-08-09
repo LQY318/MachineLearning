@@ -1,5 +1,5 @@
 createTree.py用于创建树结构
-classify.py中的分类树用于测试已有的树结构
+classifyTree.py构建分类器
 plotTree.py用于绘制树结构图
 storageTree.py用于存储以及加载树结构
 Tree.txt则是保存的树结构
