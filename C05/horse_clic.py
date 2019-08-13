@@ -7,7 +7,7 @@ def data_fmt(file_name):
 
     :args file_name: str
 
-    :return dataset: 2Darray including features and label(the last colume)
+    :return dataset: 2Darray including features and label(the last column)
     """
     with open(file_name, "r") as file:
         content = file.readlines()
