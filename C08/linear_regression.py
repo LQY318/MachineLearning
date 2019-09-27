@@ -22,7 +22,7 @@ def data_norm(ori_data):
     """
     数据标准化normalization
 
-    :args ori_data: 2Darray or vaector
+    :args ori_data: 2Darray or vector
 
     :return norm_data: 2Darray, normalized data
     """
